@@ -1,7 +1,7 @@
 {
   "name": "greca-travel-assistant",
   "displayName": "Greca Travel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Greca Travel Concierge helps users discover available Greca travel products, review itineraries and destinations, configure travel dates, passengers, hotel categories and available options, calculate authoritative package prices, create bookings after explicit confirmation, and manage existing booking information.",
   "privacyPolicyUrl": "https://www.greca.co/en/privacy",
   "author": {
