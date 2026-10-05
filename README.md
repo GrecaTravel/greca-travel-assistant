@@ -8,7 +8,6 @@ Greca Travel Concierge is a connector (plugin) that brings Greca's travel servic
 |---|---|
 | **Developer** | Greca |
 | **Category** | Travel |
-| **App configuration** | [`.app.json`](./.app.json) |
 
 ---
 
@@ -46,16 +45,22 @@ Greca Travel Concierge helps users discover available Greca travel products, rev
 5. **Book** – A booking is created **only after the user explicitly confirms**.
 6. **Manage** – Booking and transfer details, document-upload links and booking-update links can be retrieved at any time.
 
-## Installation
+## Use it
 
-1. Add the Greca Travel Concierge connector to your AI assistant or workspace.
-2. Sign in with your Greca account when prompted.
-3. Start asking about Greca trips and bookings.
+1. Install the Greca Travel Concierge plugin.
+2. Open the plugin's **Connectors** tab, connect the Greca connector, and sign in with your Greca account.
+3. Ask Claude about Greca trips, prices or your bookings in plain language. Claude builds and prices the package through Greca, shows you a summary, and books only after you confirm.
+
+On Team and Enterprise plans, an Owner adds the connector for the organization, and members then connect with their own Greca account.
+
+## Data
+
+The plugin sends the details you provide for a trip (destinations, travel dates, number and type of passengers, hotel category, selected services) and booking or client lookup requests to your Greca account through Greca's MCP server at `https://aiplan.greca.co/mcp`. When you confirm a booking, the traveler and booking details needed to create it are sent to Greca. The plugin itself stores nothing; bookings and client records are kept in Greca's systems under [Greca's privacy policy](https://www.greca.co/en/privacy).
 
 ## Support
 
-For questions about the connector, bookings or your account, contact Greca support through the Greca website.
+For questions about the connector, bookings or your account, contact Greca support through [greca.co](https://www.greca.co).
 
----
+## License
 
-© Greca. All rights reserved.
+This plugin is released under the MIT License.
