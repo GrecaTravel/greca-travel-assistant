@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "expenses": {
+    "greca": {
       "type": "http",
       "url": "https://aiplan.greca.co/mcp"
     }
